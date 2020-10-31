@@ -1,0 +1,6 @@
+git init // for create 
+git status 
+git add namefill
+git add . 
+git commit =m "discription"
+git add -a -m "discription"
