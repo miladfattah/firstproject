@@ -8,3 +8,10 @@ git commit -a -m "discription"  // dont use for new files
 git rm --cached fileName  // user for remove file in stage
 git rm --cached -r .  // user for remove files in stage
 
+git diff  // user for watch changing to all files
+
+git log // use for returned  all commit 
+git log --help // useing for help in the commant
+git log -1 // user for rreturned last commit (-1 different = -n)
+git log --oneline // return all commit in the one line
+git log -p  // return all commit with changes in the files
