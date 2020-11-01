@@ -1,6 +1,10 @@
 git init // for create 
-git status 
-git add namefill
-git add . 
-git commit -m "discription"
-git add -a -m "discription"
+git status      
+git add namefill  // use for add to stage
+git add .       // use for new files
+git commit -m "discription"  // use new files for add to repsetory
+git commit -a -m "discription"  // dont use for new files
+
+git rm --cached fileName  // user for remove file in stage
+git rm --cached -r .  // user for remove files in stage
+
