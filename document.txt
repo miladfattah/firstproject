@@ -15,3 +15,6 @@ git log --help // useing for help in the commant
 git log -1 // user for rreturned last commit (-1 different = -n)
 git log --oneline // return all commit in the one line
 git log -p  // return all commit with changes in the files
+
+
+git checkout -- namefile   // git checkout -- .   //  remove changes in the file or ( undo file ) //*use the side stage
