@@ -20,3 +20,7 @@ git log -p  // return all commit with changes in the files
 git checkout -- namefile   // git checkout -- .   //  remove changes in the file or ( undo file ) /
 
 git reset head filename // git reset head . //  remove file or files(.) as stage 
+
+
+git reset -- id // go to target id with soft mode
+git reset --hard id // got to target id with hard mode 
