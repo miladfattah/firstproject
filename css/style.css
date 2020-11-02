@@ -3,7 +3,7 @@
 }
 
 body {
-    color: blue;
+    background: linear-gradient(red , green , blue );
 }
 @keyframes animat {
     0%{
@@ -26,5 +26,8 @@ div{
     transform: rotate(1.4);
     animation: animat;
     transition: 2s all;
+    position: fixed;
+    flex-direction: column;
+    flex-wrap: nowrap;
 
 }
