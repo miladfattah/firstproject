@@ -5,3 +5,24 @@
 body {
     color: blue;
 }
+@keyframes animat {
+    0%{
+        background: burlywood;
+        transform: translate(2px,2px);
+    }
+    45%{
+        background: red;
+        transform: translate(10px,10px);
+    }
+    100%{
+        background: blueviolet;
+        transform: translate(20px,20px);
+    }
+}
+div{
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: auto 2rem;
+    transform: rotate(1.4);
+
+}
