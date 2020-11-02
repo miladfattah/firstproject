@@ -24,5 +24,7 @@ div{
     box-sizing: border-box;
     margin: auto 2rem;
     transform: rotate(1.4);
+    animation: animat;
+    transition: 2s all;
 
 }
