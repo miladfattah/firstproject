@@ -17,4 +17,6 @@ git log --oneline // return all commit in the one line
 git log -p  // return all commit with changes in the files
 
 
-git checkout -- namefile   // git checkout -- .   //  remove changes in the file or ( undo file ) //*use the side stage
+git checkout -- namefile   // git checkout -- .   //  remove changes in the file or ( undo file ) /
+
+git reset head filename // git reset head . //  remove file or files(.) as stage 
