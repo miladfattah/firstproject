@@ -32,4 +32,4 @@ git branch -d namebranch // delete branch in the project
 git checkout namebranch // switch to target branch 
 git checkout -b namebranch // add new branch add switch to new branch 
 
-git marge nameTargetBranch  // marget targetbranch to root branch
+git merge nameTargetBranch  // merget targetbranch to root branch
