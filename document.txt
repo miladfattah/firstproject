@@ -24,3 +24,10 @@ git reset head filename // git reset head . //  remove file or files(.) as stage
 
 git reset -- id // go to target id with soft mode
 git reset --hard id // got to target id with hard mode 
+
+
+git branch namebranch /// add new branch to project
+git branch -a  // show list branch in the project
+git branch -d namebranch // delete branch in the project
+git checkout namebranch // switch to target branch 
+git checkout -b namebranch // add new branch add switch to new branch 
