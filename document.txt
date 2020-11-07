@@ -24,3 +24,10 @@ git reset head filename // git reset head . //  remove file or files(.) as stage
 
 git reset -- id // go to target id with soft mode
 git reset --hard id // got to target id with hard mode 
+
+git stash    //  add to stash with auto message
+git stash save "message"  // add to stash with your message
+git stash list  // show all stash in the list 
+git stash drop namestash   // delete stash of list 
+git stash apply namestash  // aplly stash to project and keep stash in the list
+git stash pop namestash // apply satsh to project and remove stash of list 
