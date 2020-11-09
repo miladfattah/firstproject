@@ -43,4 +43,4 @@ git stash drop namestash   // delete stash of list
 git stash apply namestash  // aplly stash to project and keep stash in the list
 git stash pop namestash // apply satsh to project and remove stash of list 
 
-touch .namefile     // create ignore file in the project
+touch .gitignore     // create ignore file in the project
