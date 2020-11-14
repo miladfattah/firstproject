@@ -44,3 +44,11 @@ git stash apply namestash  // aplly stash to project and keep stash in the list
 git stash pop namestash // apply satsh to project and remove stash of list 
 
 touch .gitignore     // create ignore file in the project
+
+gitgub//  www.github.com
+
+git remote  // show all remote
+git remote add nameremote https://www.github.com/Nameproject // create new remote and connect to project site
+git push -u nameremote master(namebranch)  // push project to site 
+git push // use for difuolt remote and branch // add data to repsetory site
+git push -u Nameremote Namebranch // change difult remote and branch for add to site 
