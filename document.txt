@@ -52,3 +52,7 @@ git remote add nameremote https://www.github.com/Nameproject // create new remot
 git push -u nameremote master(namebranch)  // push project to site 
 git push // use for difuolt remote and branch // add data to repsetory site
 git push -u Nameremote Namebranch // change difult remote and branch for add to site 
+
+git pull remoteName  // add  changed from site to folder project
+
+git clone addressUrl namefolder // download project from site github
