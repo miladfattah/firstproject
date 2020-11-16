@@ -25,9 +25,34 @@ git reset head filename // git reset head . //  remove file or files(.) as stage
 git reset -- id // go to target id with soft mode
 git reset --hard id // got to target id with hard mode 
 
+
+git branch namebranch /// add new branch to project
+git branch -a  // show list branch in the project
+git branch -d namebranch // delete branch in the project
+git checkout namebranch // switch to target branch 
+git checkout -b namebranch // add new branch add switch to new branch 
+git switch namebranch // use for switch to target branch
+
+git merge nameTargetBranch  // merget targetbranch to root branch
+git log --graph           // show log in the from of graph model 
+
 git stash    //  add to stash with auto message
 git stash save "message"  // add to stash with your message
 git stash list  // show all stash in the list 
 git stash drop namestash   // delete stash of list 
 git stash apply namestash  // aplly stash to project and keep stash in the list
 git stash pop namestash // apply satsh to project and remove stash of list 
+
+touch .gitignore     // create ignore file in the project
+
+gitgub//  www.github.com
+
+git remote  // show all remote
+git remote add nameremote https://www.github.com/Nameproject // create new remote and connect to project site
+git push -u nameremote master(namebranch)  // push project to site 
+git push // use for difuolt remote and branch // add data to repsetory site
+git push -u Nameremote Namebranch // change difult remote and branch for add to site 
+
+git pull remoteName  // add  changed from site to folder project
+
+git clone addressUrl namefolder // download project from site github
