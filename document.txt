@@ -56,3 +56,5 @@ git push -u Nameremote Namebranch // change difult remote and branch for add to 
 git pull remoteName  // add  changed from site to folder project
 
 git clone addressUrl namefolder // download project from site github
+
+git pull -f Nameremote URL  // force pull from site or other projects
